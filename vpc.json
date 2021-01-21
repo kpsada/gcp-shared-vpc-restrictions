@@ -1,0 +1,7 @@
+[
+{
+      "service_project_id": "mta-mta-dev-dn-8430",
+      "vpc_host_projects": ["under:projects/non-prod-host-vpc-kp"],
+      "vpc_subnetworks": ["projects/non-prod-host-vpc-kp/regions/us-central1/subnetworks/default", "projects/non-prod-host-vpc-kp/regions/us-central1/subnetworks/dev-net"]
+}
+]
