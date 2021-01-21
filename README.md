@@ -1,7 +1,7 @@
 # GCP Shared VPC Restriction Org-Policy
 This module update the organization policy for specified service project. 
 
-## restrict-vpc-host-project module set the "constraints/compute.restrictSharedVpcHostProjects" constraint for "service_project_id"
+### restrict-vpc-host-project module set the "constraints/compute.restrictSharedVpcHostProjects" constraint for "service_project_id"
 It will take the "service_project_id" and "vpc_host_projects" input values from the "vpc.json" file and update the org-policy for "constraints/compute.restrictSharedVpcHostProjects" constraint
 
 ```bash
@@ -12,7 +12,7 @@ module "restrict-vpc-host-project" {
 }
 ```
 
-## restrict-shared-vpc-subnetworks set the "constraints/compute.restrictSharedVpcSubnetworks" constraint for "service_project_id"
+### restrict-shared-vpc-subnetworks module set the "constraints/compute.restrictSharedVpcSubnetworks" constraint for "service_project_id"
 t will take the "service_project_id" and "vpc_subnetworks" input values from the "vpc.json" file and update the org-policy for "constraints/compute.restrictSharedVpcSubnetworks" constraint
 ```bash
 module "restrict-shared-vpc-subnetworks" {
@@ -22,7 +22,7 @@ module "restrict-shared-vpc-subnetworks" {
 }
 ```
 
-## variable json file example
+### variable json file example
 ```json
 [
 {
